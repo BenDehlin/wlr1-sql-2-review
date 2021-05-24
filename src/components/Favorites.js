@@ -1,7 +1,8 @@
-import {useSelector} from 'react-redux'
+import {useContext} from 'react'
+import {UserContext} from '../context/UserContext'
 
 const Favorites = (props) => {
-  const {user} = useSelector((s) => s.authReducer)
+  const {user} = useContext(UserContext)
   console.log(user)
   return (
     <div></div>
