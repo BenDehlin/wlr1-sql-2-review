@@ -1,6 +1,8 @@
 const Dash = (props) => {
   return(
-    <div></div>
+    <div>
+      <h2>Dashboard</h2>
+    </div>
   )
 }
 

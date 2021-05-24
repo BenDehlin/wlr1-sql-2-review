@@ -6,8 +6,8 @@ import Favorites from './components/Favorites'
 
 export default (
   <Switch>
-    <Route exact path ='/' component={Auth} />
-    <Route path='/dash' component={Dash} />
+    <Route exact path ='/' component={Dash} />
+    <Route path='/auth' component={Auth} />
     <Route path='/movies' component={Movies} />
     <Route path='/favorites' component={Favorites} />
   </Switch>
